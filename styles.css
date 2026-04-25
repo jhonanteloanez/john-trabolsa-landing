@@ -41,16 +41,18 @@ body {
   text-align: center;
 }
 
-.logo-placeholder {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto 24px;
-  border: 2px dashed rgba(255, 255, 255, 0.22);
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 0.95rem;
+ .photo-frame {
+  width: min(100%, 360px);
+  margin: 0 auto 28px;
+}
+
+.product-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 .hero-card h1 {

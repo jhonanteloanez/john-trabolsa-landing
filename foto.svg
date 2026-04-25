@@ -1,0 +1,15 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1014" />
+      <stop offset="100%" stop-color="#141c23" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)" rx="32" />
+  <rect x="120" y="120" width="400" height="220" rx="24" fill="rgba(255,255,255,0.08)" />
+  <rect x="140" y="145" width="160" height="160" rx="18" fill="#1f262e" />
+  <rect x="150" y="155" width="140" height="140" rx="16" fill="#0f1519" />
+  <path d="M300 180c24-22 60-24 88-6s38 52 28 80c-10 28-38 48-68 48s-56-20-66-48c-10-28-4-60 18-74z" fill="#25d366" opacity="0.8" />
+  <path d="M320 185c18-16 44-18 64-5s28 38 22 56c-6 18-22 30-40 30s-32-12-38-30c-6-18-3-40 12-51z" fill="#fff" opacity="0.9" />
+  <text x="320" y="360" dominant-baseline="middle" text-anchor="middle" fill="#c7d0db" font-family="Inter, sans-serif" font-size="24">Tu foto aquí</text>
+</svg>

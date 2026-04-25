@@ -36,3 +36,15 @@ vercel --prod
 
 - El botón de WhatsApp ya está configurado en `index.html` con tu número.
 - Si quieres, puedo ayudarte a crear un repositorio Git y conectarlo directamente a Vercel o Netlify.
+
+## Añadir una foto de producto
+
+1. Guarda tu foto en la misma carpeta que `index.html`.
+2. Cambia el nombre del archivo a `foto.jpg`, `foto.png` o `foto.svg`.
+3. Si usas otro nombre, actualiza el atributo `src` en `index.html`:
+
+```html
+<img class="product-photo" src="NOMBRE_DE_TU_IMAGEN.jpg" alt="Foto del producto John Trabolsa" />
+```
+
+La página ya incluye un marcador de posición visual con `foto.svg` para que puedas ver cómo queda.
